@@ -1,0 +1,71 @@
+.intro-title {
+    margin: 0 auto;
+    width: 919px;
+    font-size: 150px;
+    line-height: 156px;
+    text-align: center;
+    letter-spacing: -0.07em;
+    color: #ff25c2;
+  }
+
+  .intro-background {
+    position: relative;
+    background-image: url(../resources/main-ear.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 819px;
+    height: 840px;
+    margin: 90px auto 70px;
+  }
+  
+  .intro-description {
+    position: absolute;
+    top: -70px;
+    left: 192px;
+    width: 430px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+  }
+
+  /* @media (max-width: 767px) {
+    .intro-title {
+      margin: 0 auto;
+      width: 919px;
+      font-size: 150px;
+      line-height: 156px;
+      text-align: center;
+      letter-spacing: -0.07em;
+      color: #ff25c2;
+    }
+  
+    .intro-background {
+      position: relative;
+      background-image: url(../resources/main-ear.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      width: 819px;
+      height: 840px;
+      margin: 90px auto 70px;
+    }
+    
+    .intro-description {
+      position: absolute;
+      top: -70px;
+      left: 192px;
+      width: 430px;
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 30px;
+      text-align: center;
+      letter-spacing: -0.03em;
+      color: #ffffff;
+    }
+  } */
+  
+ 

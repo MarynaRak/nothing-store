@@ -1,0 +1,81 @@
+.items-wrapper {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+}
+
+.order-flex-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.training-title {
+  width: 676px;
+  color: #ff25c2;
+}
+
+.training-description {
+  width: 507px;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+
+.training-description::before {
+  content: "";
+  margin: 0 auto 20px;
+  display: block;
+  width: 54px;
+  height: 54px;
+  background-color: #ff25c2;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 100px;
+}
+
+.first-training-description::before {
+  background-image: url(../resources/symbol-sharp.png);
+}
+
+.second-training-description::before {
+  background-image: url(../resources/symbol-pause.png);
+}
+
+.third-training-description::before {
+  background-image: url(../resources/symbol-lightning.png);
+}
+
+.order-background {
+  background-image: url(../resources/buy-sec-img.png);
+  height: 1040px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+.order-title {
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+
+.order-text {
+  margin-bottom: 60px;
+  width: 942px;
+  font-size: 45px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: -0.06em;
+  color: #ffffff;
+}
+
+.training-order-btn {
+  width: 866px;
+}

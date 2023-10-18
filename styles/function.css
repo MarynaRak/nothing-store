@@ -1,0 +1,30 @@
+.function-background {
+  position: relative;
+  height: 786px;
+  background-image: url(../resources/mirror-face-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  padding-top: 190px;
+}
+
+.function-flex-wrapper {
+  margin: 0 auto;
+  width: 671px;
+  display: flex;
+  flex-direction: column;
+  gap: 39px;
+  align-items: center;
+}
+
+.function-title {
+  color: #ff25c2;
+}
+
+.function-description {
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
